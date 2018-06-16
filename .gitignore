@@ -1,0 +1,8 @@
+
+# might remove this
+*.aux
+
+*.gz
+*.log
+*.fls
+*.fdb_latexmk

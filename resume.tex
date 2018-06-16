@@ -1,0 +1,77 @@
+\documentclass{resume}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage[none]{hyphenat}
+\hyphenpenalty 10000
+\exhyphenpenalty 10000
+
+\name{Samuel B. Paul}
+\address{ 65 Saint Marks Pl. Apt 11 \\ New York, NY 10003 }
+\address{ 510~$\cdot$~381~$\cdot$~1581 \\ sampaulmobile@gmail.com }
+
+\def\nameskip{\bigskip}
+\def\sectionskip{\medskip}
+
+\begin{document}
+\begin{rSection}{Experience}
+  \begin{rSubsection}{Docurated, Inc.}{March 2016 - Present}{Head of Data Engineering}{New York, NY}
+  \item Responsible for the design and implementation of Docurated's ETL and analytics system,
+    which uses Kafka, Airflow, Spark, and Redshift to provide invaluable 
+    insight both internally and to our clients
+  \item Incorporated Tableau into our product/pipeline to dramatically cut frontend development costs/times
+    as well as give our clients infinite ways to interact with their data 
+  \item Improved Docurated's core search algorithm by including time-weighted user activity when ranking
+  \item Interfaced with clients/customer success team to map out future features/requests
+  \end{rSubsection}
+
+  \begin{rSubsection}{Docurated, Inc.}{December 2013 - March 2017}{Full-Stack Developer}{New York, NY}
+  \item Wrote code that runs across the entire Docurated stack, including
+    web-based UIs, logic for backend document processing/updating solr clusters, and
+    sync connector integrations (Dropbox, GoogleDrive, Salesforce, etc.)
+  \item Performed significant rewrite of the Docurated desktop sync application (python) 
+    to add a frontend UI that was dynamic and customizable (react)
+  \item Aided in the multi-team effort of moving (almost) all of our AWS services into Kubernetes
+  \end{rSubsection}
+
+  \begin{rSubsection}{Bloomberg LP}{July 2011 - December 2013}{Financial Software Developer}{New York, NY}
+  \item Worked on the Fixed Income Pricing \& Monitoring team
+  \item Responsible for designing, creating, and maintaining Bloomberg terminal functions (new and old)
+  \item Built and launched two functions, \{FIW\} and \{URI\}, which get over 2,500 client hits daily
+  \end{rSubsection}
+
+  \begin{rSubsection}{Barclays Capital}{June 2010 - August 2010}{Summer Intern}{New York, NY}
+  \item Worked in the Fixed Income Exotics Development division
+  \item Designed and implemented a Universal Risk Feed reconciliation tool
+  \item Worked with traders to increase recon tool's usability and efficiency
+  \end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Education}
+  {\bf Massachusetts Institute of Technology} \hfill {\em June 2011} \\
+  { Bachelor of Science - Electrical Engineering \& Computer Science} \\
+  \begin{footnotesize}
+    \textit{Multivariable Calculus, Differential Equations, EECS 1, EECS 2,
+      Algorithms, Computation Structures, Artificial Intelligence,
+      Software Construction, Computer Graphics, Probabilistic Systems Analysis,
+    Statistical Thinking and Data Analysis} \\
+  \end{footnotesize}
+  {Bachelor of Science - Management (Concentration in Operations Research)} \\
+  \begin{footnotesize}
+    \textit{Game Theory, Managerial Psychology, Optimization Methods in Management Science,
+    Operations Management}
+  \end{footnotesize}
+\end{rSection}
+
+\begin{rSection}{Skills}
+  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Languages/Frameworks & Python, Ruby, Rails, Java/Scala, C++ \\
+    Databases & PostgreSQL, Redshift, Cassandra \\
+    Tools & Airflow, Spark, Kafka, AWS, Kubernetes, Tableau \\
+  \end{tabular}
+\end{rSection}
+
+% \begin{rSection}{Interests}
+%   Travel, Cryptocurrencies
+% \end{rSection}
+
+\end{document}
